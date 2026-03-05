@@ -10,7 +10,7 @@ Many users need a **simple and immediate method to capture short-term notes, ide
 
 This project addresses that problem by offering a **minimalistic and intuitive note-taking system** that runs entirely in the browser.
 
-## Solution (XYZ Method)
+## Solution
 **Built** a responsive note-taking application **by implementing dynamic DOM manipulation and JavaScript-driven interactions**, **enabling users to create, display, and remove notes instantly in a clean, organized layout.**
 
 ## Features
