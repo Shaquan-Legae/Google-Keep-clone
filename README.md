@@ -26,14 +26,16 @@ This project addresses that problem by offering a **minimalistic and intuitive n
 - **JavaScript (Vanilla JS)** – for functionality and interactivity  
 
 ## Project Directory Structure
+
+```plaintext
 Google-Keep-Clone/
 │
-├── index.html # Main HTML page
-├── style.css # CSS styles for layout and cards
-├── script.js # JavaScript for creating and deleting notes
-├── resource/ # Folder for images or icons
-└── README.md # Project documentation
-
+├── index.html          # Main HTML file for the app
+├── style.css           # CSS file for styling and layout
+├── script.js           # JavaScript file for functionality and interactivity
+├── assets/             # Optional folder for images, icons, or other assets
+│   └── icon.png        # Example icon or image
+└── README.md           # Project documentation
 
 ## Getting Started
 
