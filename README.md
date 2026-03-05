@@ -36,6 +36,7 @@ Google-Keep-Clone/
 ├── assets/             # Optional folder for images, icons, or other assets
 │   └── icon.png        # Example icon or image
 └── README.md           # Project documentation
+```
 
 ## Getting Started
 
