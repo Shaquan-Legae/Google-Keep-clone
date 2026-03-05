@@ -1,1 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+}
 
+/* Navbar */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+}
+
+/* Sidebar */
+aside {
+    display: flex;
+    flex-direction: column;
+    float: left;
+    padding: 10px;
+    position: fixed;
+}
+
+/* Notes Section */
+
+.hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
