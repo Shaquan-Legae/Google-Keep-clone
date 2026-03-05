@@ -1,1 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Keep</title>
+    <link rel="icon" sizes="128x128" href="https://ssl.gstatic.com/keep/icon_2020q4v2_128.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <input type="checkbox" id="sidebar-toggle">
+    <input type="checkbox" id="search-toggle">
+
+    <nav>
+        <div class="leftNavElements">
+            <label for="sidebar-toggle" class="ham-menu">
+                <img src="resources/menu.svg" alt="Hamburger Menu">
+            </label>
+            <img src="https://www.gstatic.com/images/branding/product/1x/keep_2020q4_48dp.png" alt="Google Keep Icon" class="keep-icon"/>
+            <h2>Keep</h2>
+        </div>
+
+        <div class="navSearch">
+            <label for="search-toggle" class="search-close-btn">
+                <img src="resources/menu.svg" alt="Close Search">
+            </label>
+            <button><img src="resources/search.svg" alt="Search Icon"></button>
+            <input type="text" placeholder="Search">
+        </div>
+
+        <div class="rightNavElements">
+            <button class="nav-btn"><img src="resources/refresh.svg" alt="Refresh Button"></button>
+            <button class="nav-btn"><img src="resources/listview.svg" alt="List-view Icon"></button>
+            <button class="nav-btn"><img src="resources/settings.svg" alt="Settings Icon"></button>
+            <button class="nav-btn"><img src="resources/apps.svg" alt="Apps Icon"></button>
+            <label for="search-toggle" class="nav-btn search-mobile-btn">
+                <img src="resources/search.svg" alt="Search">
+            </label>
+            <a href="#" class="profile-btn"><i>P</i></a>
+        </div>
+    </nav>
+
+    <main>
+        <aside id="sidebar">
+            <button class="aside-btn active">
+                <img src="resources/notes.svg" alt="Note Icon">
+                <span class="aside-btn-text">Notes</span>
+            </button>
+            <button class="aside-btn">
+                <img src="resources/reminder.svg" alt="Reminders Icon">
+                <span class="aside-btn-text">Reminders</span>
+            </button>
+            <button class="aside-btn">
+                <img src="resources/label.svg" alt="Labels Icon">
+                <span class="aside-btn-text">Edit labels</span>
+            </button>
+            <button class="aside-btn">
+                <img src="resources/archive.svg" alt="Archive Icon">
+                <span class="aside-btn-text">Archive</span>
+            </button>
+            <button class="aside-btn">
+                <img src="resources/bin.svg" alt="Trash Icon">
+                <span class="aside-btn-text">Bin</span>
+            </button>
+            <span class="aside-footer">Open-source licences</span>
+        </aside>
+
+        <section class="hero-section">
+            <div class="firstNote">
+                <input type="text" placeholder="title">
+                <button class="firstNote-btn"><i>NewList Icon</i></button>
+                <button class="firstNote-btn"><i>Drawing Icon</i></button>
+                <button class="firstNote-btn"><i>Image Icon</i></button>
+            </div>
+            <div class="secondNote" style="display: none;">
+                <input type="text" placeholder="title">
+                <textarea placeholder="Take a note..."></textarea>
+                <button class="secondNote-btn"><i>Pin Icon</i></button>
+                <button class="secondNote-btn"><i>Formatting Icon</i></button>
+                <button class="secondNote-btn"><i>Background Icon</i></button>
+                <button class="secondNote-btn"><i>Reminder Icon</i></button>
+                <button class="secondNote-btn"><i>Collaborator Icon</i></button>
+                <button class="secondNote-btn"><i>Add-image Icon</i></button>
+                <button class="secondNote-btn"><i>Archive Icon</i></button>
+                <button class="secondNote-btn"><i>More Icon</i></button>
+                <button class="secondNote-btn"><i>Undo Icon</i></button>
+                <button class="secondNote-btn"><i>Redo Icon</i></button>
+                <button class="secondNote-btn close">Close</button>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
