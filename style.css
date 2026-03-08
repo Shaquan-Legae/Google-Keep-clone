@@ -332,7 +332,7 @@ aside {
 .firstNote {
     display: flex;
     flex-direction: row;
-    margin-top: 10px;
+    margin-top: 20px;
     box-sizing: border-box;
     width: 100%;
     max-width: 650px;
@@ -344,7 +344,7 @@ aside {
     opacity: 1;
     position: relative;
     transition: box-shadow 0.2s ease, opacity 0.2s ease;
-    height: 50px;
+    height: 45px;
 
   }
   
